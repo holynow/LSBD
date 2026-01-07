@@ -38,16 +38,15 @@
     }
     .address-list {
         margin-top : 1.3em;
-        padding: 1.5em;
+        padding: 2em 1.5em;
         background: rgba(255,255,255,.3);
         border-radius: 1.5em;
     }
     .address-list li {
-
         font-weight: 600;
     }
     .address-list li ~ li {
-        margin-top: 2em;
+        margin-top: 1.4em;
     }
     .address-list li p {
         margin-top: .5em;
@@ -55,5 +54,7 @@
         font-weight: 300;
     }
     .address-list li span {
+        display: block;
+        margin-bottom: .6em;
         color: #fed826;
     }
