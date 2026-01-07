@@ -39,7 +39,7 @@
     .address-list {
         margin-top : 1.3em;
         padding: 2em 1.5em;
-        background: rgba(255,255,255,.3);
+        background: linear-gradient(156deg, rgb(67 76 155) 0%, rgb(39 53 110) 50%, rgb(58 66 141) 100%);
         border-radius: 1.5em;
     }
     .address-list li {
