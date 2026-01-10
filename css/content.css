@@ -24,7 +24,7 @@
         width: 100%;
     }
     .address-wrap {
-        margin-top: 4em;
+        margin-top: 5em;
         color: #fff;
     }
     .address-wrap + .address-wrap {
@@ -43,7 +43,8 @@
     .address-list {
         margin-top : 1em;
         padding: 2em 1.5em;
-        background: linear-gradient(156deg, rgb(50 57 124) 0%, rgb(64 100 172) 50%, rgb(50 61 128) 100%);
+        background: linear-gradient(156deg, rgb(63 72 156) 0%, rgb(15 21 76) 50%, rgb(50 61 128) 100%);
+        box-shadow: 5px 10px 10px rgba(0,0,0,.2);
         border-radius: 1.5em;
     }
     .address-list li {
