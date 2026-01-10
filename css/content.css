@@ -65,3 +65,8 @@
         color: #fed826;
         font-weight: 500;
     }
+    .address-list li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 600;
+    }
