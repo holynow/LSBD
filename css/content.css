@@ -4,11 +4,11 @@
     }
     .content-wrap {
         width: 100%;
-        height: 100vh;
-        padding-bottom: 25%;
+        padding-bottom: calc(100% - 20%);
         background: url('/img/bottom-bg.png') no-repeat bottom;
         background-color: #10154c;
         background-size: contain;
+        overflow-y: hidden;
     }
     
     .content {
@@ -24,12 +24,16 @@
         width: 100%;
     }
     .address-wrap {
-        margin-top: 5em;
+        margin-top: 4em;
         color: #fff;
+    }
+    .address-wrap + .address-wrap {
+        margin-top: 3em;
     }
     .address-tit h2 {
         color: #fff;
-        font-size: 1.5em;
+        line-height: 1.2;
+        font-size: 1.3em;
         font-weight: 700;
         text-align: center;
     }
@@ -37,13 +41,14 @@
         color: #fed826;
     }
     .address-list {
-        margin-top : 1.3em;
+        margin-top : 1em;
         padding: 2em 1.5em;
-        background: linear-gradient(156deg, rgb(67 76 155) 0%, rgb(39 53 110) 50%, rgb(58 66 141) 100%);
+        background: linear-gradient(156deg, rgb(50 57 124) 0%, rgb(64 100 172) 50%, rgb(50 61 128) 100%);
         border-radius: 1.5em;
     }
     .address-list li {
         font-weight: 600;
+        line-height: 1.2;
     }
     .address-list li ~ li {
         margin-top: 1.4em;
@@ -57,4 +62,5 @@
         display: block;
         margin-bottom: .6em;
         color: #fed826;
+        font-weight: 500;
     }
